@@ -1,0 +1,28 @@
+div{
+    height: 600px;
+    width: 100px;
+    background-color: rgb(118, 118, 118);
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.first{
+    margin: 20px;
+    transition: height 1s ease-in-out 0.2s;
+}
+
+.second{
+    margin: 20px;
+    transition: height 1s step-end 3s;
+}
+
+.first:hover{
+    height: 100px;
+    background-color: rgb(255, 170, 0);
+    
+}
+
+.second:hover{
+    transform: translate(50px,50px);
+    background-color: rgb(255, 170, 0);
+}
