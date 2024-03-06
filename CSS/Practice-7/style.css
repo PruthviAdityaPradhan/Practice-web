@@ -4,6 +4,7 @@ div{
     background-color: rgb(118, 118, 118);
     display: inline-block;
     border: 2px solid black;
+    margin: 10px auto;
 }
 
 .first{
@@ -13,7 +14,7 @@ div{
 
 .second{
     margin: 20px;
-    transition: height 1s step-end 3s;
+    transition: height 1s ease-in-out 3s;
 }
 
 .first:hover{
@@ -23,6 +24,6 @@ div{
 }
 
 .second:hover{
-    transform: translate(50px,50px);
-    background-color: rgb(255, 170, 0);
+    
+    box-shadow: 2px 2px 10px rgb(214, 93, 93);
 }
