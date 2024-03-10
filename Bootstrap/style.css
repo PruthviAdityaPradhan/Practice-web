@@ -1,4 +1,6 @@
-
+.card-body{
+    background-color: rgba(172, 255, 47, 0.518);
+}
 
 .container{
     background-color: greenyellow;
