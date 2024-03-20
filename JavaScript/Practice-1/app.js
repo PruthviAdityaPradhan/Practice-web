@@ -1,3 +1,4 @@
+/*
 //creating arrays
 
 let marks = [99,92,91,100];
@@ -18,3 +19,18 @@ let months = ["jan","feb","march"];
 console.log(months);
 months.splice(0,2,"oct");
 console.log(months);
+*/
+
+/*
+//to print all odd no till 15
+for(let i=0;i<15;i++){
+    if(i%2!=0){
+    console.log(i);
+    }
+
+//to print all odd no till 15
+for(let i=0;i<15;i++){
+    if(i%2==0){
+    console.log(i);
+    }
+*/
