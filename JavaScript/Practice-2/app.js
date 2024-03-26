@@ -9,10 +9,19 @@ function dice(){
 dice();
 
 //function with argument
-let name = prompt("enter name");
+// let name = prompt("enter name");
 
-function printName(){
+function printName(name){
     console.log(`your name is ${name}`);
 }
 
-printName();
+printName("abc");
+
+//function to get avg of 3 no
+
+function avg(a,b,c){
+    average = (a+b+c)/3;
+    console.log(average);
+}
+
+avg(7,10,30);
