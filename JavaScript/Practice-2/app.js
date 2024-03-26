@@ -8,6 +8,8 @@ function dice(){
 
 dice();
 
+console.log("---------------------");
+
 //function with argument
 // let name = prompt("enter name");
 
@@ -17,6 +19,8 @@ function printName(name){
 
 printName("abc");
 
+console.log("---------------------");
+
 //function to get avg of 3 no
 
 function avg(a,b,c){
@@ -25,3 +29,17 @@ function avg(a,b,c){
 }
 
 avg(7,10,30);
+
+console.log("---------------------");
+
+// multiplication table of a number
+function table(num){
+    for(let i=1;i<=10;i++){     
+        console.log(num*i);
+    }
+}
+
+let num = prompt("enter a number");
+table(num);
+
+console.log("---------------------");
