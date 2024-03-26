@@ -7,3 +7,12 @@ function dice(){
 }
 
 dice();
+
+//function with argument
+let name = prompt("enter name");
+
+function printName(){
+    console.log(`your name is ${name}`);
+}
+
+printName();
