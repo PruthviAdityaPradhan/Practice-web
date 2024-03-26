@@ -43,3 +43,18 @@ let num = prompt("enter a number");
 table(num);
 
 console.log("---------------------");
+ 
+//to concat array of strings
+let str = ["hi","hello","bye"];
+
+function concat(str){
+    let result="";
+    
+    for(let i=0;i<str.length;i++){
+        result+=str[i];
+    }
+
+    return result;
+}
+
+console.log("---------------------");
