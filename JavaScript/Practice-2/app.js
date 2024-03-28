@@ -58,3 +58,9 @@ function concat(str){
 }
 
 console.log("---------------------");
+
+//Arrow function
+
+const sum = (a,b) => {
+    console.log(a+b);
+}
