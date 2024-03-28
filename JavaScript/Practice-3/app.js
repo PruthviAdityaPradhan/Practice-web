@@ -21,6 +21,8 @@ console.log("log after this");
 
 //setInterval
 
-setInterval( () => {
+let id = setInterval( () => {
     console.log("yo");
 },2500);
+
+console.log(id);
