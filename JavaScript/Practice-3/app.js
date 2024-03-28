@@ -18,3 +18,9 @@ setTimeout( () => {
 },4000);
 
 console.log("log after this");
+
+//setInterval
+
+setInterval( () => {
+    console.log("yo");
+},2500);
