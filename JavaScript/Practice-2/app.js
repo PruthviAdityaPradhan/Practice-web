@@ -64,3 +64,9 @@ console.log("---------------------");
 const sum = (a,b) => {
     console.log(a+b);
 }
+
+console.log("---------------------");
+
+//implicit return
+
+const mul = (a,b) => a*b ;
