@@ -26,3 +26,6 @@ let id = setInterval( () => {
 },2500);
 
 console.log(id);
+//to stop setInterval -> clearInterval(id);
+
+
