@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('root path');
 })
 
 app.get('/help', (req, res) => {
@@ -16,6 +16,10 @@ app.get('/home', (req, res) => {
 
 app.get('/contacts', (req, res) => {
     res.send('You searched contacts');
+  })
+
+app.get('*', (req, res) => {
+    res.send('path does not exist');
   })
 
 app.listen(port, () => {
